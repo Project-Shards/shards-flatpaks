@@ -1,0 +1,28 @@
+{
+  "name": "DesktopGNOME",
+  "version": "0.1.0",
+  "type": "desktop",
+  "base": "",
+  "author": "axtlos (axtlos@getcryst.al)",
+  "packages": [
+    "xorg", 
+    "gnome", 
+    "sushi", 
+    "pipewire", 
+    "pipewire-pulse", 
+    "pipewire-alsa",
+    "pipewire-jack",
+    "wireplumber",
+    "noto-fonts",
+    "noto-fonts-cjk",
+    "noto-fonts-emoji",
+    "noto-fonts-extra",
+    "ttf-nerd-fonts-symbols-common",
+    "power-profiles-daemon",
+    "cups", 
+    "cups-pdf"
+  ],
+  "commands": [
+    "systemctl enable gdm"
+  ]
+}
