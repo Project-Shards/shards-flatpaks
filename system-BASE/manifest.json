@@ -1,17 +1,14 @@
 {
   "name": "System",
   "version": "0.1.0",
+  "id": "al.getcryst.shards.system.Base",
   "type": "system",
   "base": "",
   "author": "axtlos (axtlos@getcryst.al)",
   "packages": [
     "base",
-    "linux", 
-    "linux-firmware", 
     "networkmanager", 
     "btrfs-progs",
-    "grub", 
-    "efibootmgr", 
     "systemd-sysvcompat", 
     "man-db", 
     "man-pages", 
@@ -25,9 +22,12 @@
     "bash-completion",
     "zsh-completions",
     "bluez",
-    "podman"
+    "podman",
+    "flatpak",
+    "neofetch"
   ],
   "commands": [
-    "touch /etc/shardsimage"
+    "touch /etc/shardsimage",
+    "echo 'root:root' | chpasswd"
   ]
 }
