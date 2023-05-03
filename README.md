@@ -1,4 +1,4 @@
-# shards-oci
+# shards-flatpaks
 
 [shardimg](https://github.com/axtloss/shardimg) manifests to build base Project Shards OCI images
 
