@@ -1,0 +1,16 @@
+{
+  "name": "System",
+  "version": "0.1.0",
+  "id": "io.github.shards.system.GNOME",
+  "type": "system",
+  "base": "io.github.shards.system.Base",
+  "author": "axtlos (axtlos@getcryst.al)",
+  "packages": [
+    "gnome",
+    "sushi",
+    "gdm"
+  ],
+  "commands": [
+    "systemctl enable gdm",
+  ]
+}

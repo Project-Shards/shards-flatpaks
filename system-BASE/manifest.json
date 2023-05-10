@@ -1,7 +1,7 @@
 {
   "name": "System",
   "version": "0.1.0",
-  "id": "al.getcryst.shards.system.Base",
+  "id": "io.github.project-shards.system.Base",
   "type": "system",
   "base": "",
   "author": "axtlos (axtlos@getcryst.al)",
@@ -24,10 +24,13 @@
     "bluez",
     "podman",
     "flatpak",
-    "neofetch"
+    "pipewire",
+    "pipewire-pulse",
+    "pipewire-alsa",
+    "pipewire-jack",
+    "wireplumber"
   ],
   "commands": [
-    "touch /etc/shardsimage",
-    "echo 'root:root' | chpasswd"
+    "systemctl enable NetworkManager"
   ]
 }
