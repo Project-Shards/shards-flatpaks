@@ -11,6 +11,6 @@
     "gdm"
   ],
   "commands": [
-    "systemctl enable gdm",
+    "systemctl enable gdm"
   ]
 }
