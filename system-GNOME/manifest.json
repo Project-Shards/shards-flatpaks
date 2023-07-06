@@ -12,5 +12,9 @@
   ],
   "commands": [
     "systemctl enable gdm"
-  ]
+  ],
+  "fsguard_enabled": false,
+  "fsguard_binary": "/usr/bin/FsGuard",
+  "fsguard_paths": "/usr"
+
 }

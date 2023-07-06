@@ -1,7 +1,7 @@
 {
   "name": "System",
   "version": "0.1.0",
-  "id": "io.github.project-shards.system.Base",
+  "id": "io.github.projectshards.system.Base",
   "type": "system",
   "base": "",
   "author": "axtlos (axtlos@getcryst.al)",
@@ -31,5 +31,8 @@
   ],
   "commands": [
     "systemctl enable NetworkManager"
-  ]
+  ],
+  "fsguard_enabled": false,
+  "fsguard_binary": "FsGuard",
+  "fsguard_paths": ["/usr/bin"]
 }

@@ -1,18 +1,12 @@
 {
-  "name": "Boot",
-  "version": "0.1.0",
-  "id": "al.getcryst.shards.boot.base",
-  "type": "system",
-  "base": "",
+  "name": "Linux",
+  "version": "6.4.1",
+  "id": "al.getcryst.shards.boot.linux",
+  "type": "boot",
   "author": "axtlos (axtlos@getcryst.al)",
-  "packages": [
-    "linux", 
-    "linux-firmware", 
-    "grub", 
-    "efibootmgr",
-    "mkinitcpio" 
-  ],
-  "commands": [
-    "touch /etc/shardsimage-boot"
-  ]
+  "kernelname": "linux",
+  "kernelversion": "6.4.1-arch2-1",
+  "kernelpackage": "linux",
+  "kernelargs": "root=\"LABEL=SHARDSROOT\"",
+  "commands": []
 }
