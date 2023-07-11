@@ -1,12 +1,12 @@
 {
   "name": "Linux",
   "version": "6.4.1",
-  "id": "al.getcryst.shards.boot.linux",
+  "id": "io.github.projectshards.boot.linux",
   "type": "boot",
   "author": "axtlos (axtlos@getcryst.al)",
   "kernelname": "linux",
   "kernelversion": "6.4.1-arch2-1",
   "kernelpackage": "linux",
-  "kernelargs": "root=\"LABEL=SHARDSROOT\"",
+  "kernelargs": "root=\"LABEL=SHARDSROOT\" rootflags=subvol=Root rw init=/init",
   "commands": []
 }
